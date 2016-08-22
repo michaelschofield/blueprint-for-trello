@@ -6,6 +6,8 @@ adds color coding and icons to cards used in service design
 consistent with the look and feel established by Megan Miller and Erik Flowers
 for their [practical service blueprint](http://www.practicalservicedesign.com/the-guide).
 
+![A screenshot of a color-coded list](/images/screenshot.png?raw=true)
+
 ## Use
 This extension isn't quite ready for prime time but if you're interested in
 messing around you will need to visit `chrome://extensions` and toggle
@@ -30,4 +32,4 @@ of layer within brackets in the title of the card. e.g., `[actor] Michael Schofi
 ### Um, refresh
 Right now the script only runs on page load, so you'll need to refresh. I wanted
 to commit something before time got away from me, thus the < 1.0 designation
-in the manifest. 
+in the manifest.
