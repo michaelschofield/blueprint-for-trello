@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+
+  "name": "Service Blueprint for Trello",
+  "description": "This extension makes it a tad easier to use Trello in service design.",
+  "content_scripts": [
+  		{
+  			"matches": ["https://trello.com/*"],
+  			"js": ["jquery-3.1.0.min.js","blueprint.js"],
+        "css" : ["blueprint.css"]
+  		}
+  	],
+  "version": "0.5",
+
+  "web_accessible_resources": [
+    "images/actor.svg",
+    "images/touchpoint.svg",
+    "images/system.svg",
+    "images/stakeholder.svg",
+    "images/observation.svg",
+    "images/data.svg",
+    "images/policy.svg",
+    "images/question.svg",
+    "images/critical.svg",
+    "images/idea.svg"
+  ]
+
+}

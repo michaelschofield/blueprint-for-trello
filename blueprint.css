@@ -1,0 +1,23 @@
+.list-card.step__touchpoint { background-color: #77b1c4 }
+.list-card.step__actor { background-color: #9dc382; }
+.list-card.step__system { background-color: #8692a0; }
+.list-card.step__stakeholder { background-color: #5b646f; }
+.list-card.step__observation { background-color: #aac9e6; }
+.list-card.step__data { background-color: #8b7cc0; }
+.list-card.step__policy { background-color: #d8a355; }
+.list-card.step__question { background-color: #4b83c3; }
+.list-card.step__critical { background-color: #d36d68; }
+.list-card.step__idea { background-color: #e2be54 }
+[class*="step__"]:hover { opacity: .8; }
+[class*="step__"] a.list-card-title,
+[class*="step__"] .badge,
+[class*="step__"] .badge-icon {
+  color: white !important;
+}
+.step__icon {
+  float: left;
+  fill: white;
+  margin-right: 8px;
+  position: relative;
+  top: 0;
+}
