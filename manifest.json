@@ -6,7 +6,7 @@
   "content_scripts": [
   		{
   			"matches": ["https://trello.com/*"],
-  			"js": ["jquery-3.1.0.min.js","blueprint.js"],
+  			"js": ["blueprint.js"],
         "css" : ["blueprint.css"]
   		}
   	],

@@ -8,12 +8,22 @@
 .list-card.step__question { background-color: #4b83c3; }
 .list-card.step__critical { background-color: #d36d68; }
 .list-card.step__idea { background-color: #e2be54 }
-[class*="step__"]:hover { opacity: .8; }
+[class*="step__"]:hover,
+.list-card[class*="step__"].active-card { background-color: auto; opacity: .8;}
 [class*="step__"] a.list-card-title,
 [class*="step__"] .badge,
 [class*="step__"] .badge-icon {
   color: white !important;
 }
+
+.list.step--hidden {
+  background-color: #444;
+}
+
+.list.step--hidden .list-header-name {
+  color: white;
+}
+
 .step__icon {
   float: left;
   fill: white;
