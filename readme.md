@@ -29,7 +29,5 @@ of layer within brackets in the title of the card. e.g., `[actor] Michael Schofi
 * [critical]
 * [idea]
 
-### Um, refresh
-Right now the script only runs on page load, so you'll need to refresh. I wanted
-to commit something before time got away from me, thus the < 1.0 designation
-in the manifest.
+#### Backstage steps
+You can designate that a step is backstage by adding [hidden] to the list name.
